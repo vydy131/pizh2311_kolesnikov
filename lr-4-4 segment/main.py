@@ -1,3 +1,10 @@
+# Программирование на языке высокого уровня (Python).
+# Задание №4. Вариант 2
+#
+# Выполнил: Колесников ВГ
+# Группа: ПИЖ 23 1 1
+# E-mail: vydy131@gmail.com
+
 from abstract_linesegment import LineSegment
 
 def test_line_segment_operations():

@@ -1,3 +1,10 @@
+# Программирование на языке высокого уровня (Python).
+# Задание №6. Вариант 2
+#
+# Выполнил: Колесников ВГ
+# Группа: ПИЖ 23 1 1
+# E-mail: vydy131@gmail.com
+
 from abc import ABC, abstractmethod
 
 class WritingInstrument(ABC):
