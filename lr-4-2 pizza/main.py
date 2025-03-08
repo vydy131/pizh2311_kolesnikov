@@ -1,21 +1,21 @@
 # Программирование на языке высокого уровня (Python).
-# Задание №______. Вариант !!!
+# Задание №2.
 #
-# Выполнил: Фамилия И.О.
-# Группа: !!!
-# E-mail: !!!
+# Выполнил: Колесников ВГ
+# Группа: ПИЖ 23 1 1
+# E-mail: vydy131@gmail.com
 
 
-from терминал import Терминал
+from Terminal import Terminal
 
 if __name__ == "__main__":
 
-    терминал1 = Терминал()
-    print(терминал1)
+    terminal1 = Terminal()
+    print(terminal1)
     while True:
-        терминал1.показать_меню()
-        пункт_меню = input()
-        терминал1.обработать_команду(пункт_меню)
+        terminal1.showMenu()
+        menuPosition = input()
+        terminal1.command(menuPosition)
 
 # -------------
 # Пример вывода:
