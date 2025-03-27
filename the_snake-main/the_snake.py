@@ -83,8 +83,6 @@ class Snake(GameObject):
         head_x, head_y = self.positions[0]
         dx, dy = self.direction
         new_head = (head_x + dx * GRID_SIZE, head_y + dy * GRID_SIZE)
-
-        # Телепортируем змейку на противоположный край при выходе за границы
         if new_head[0] < 0:
             new_head = (SCREEN_WIDTH - GRID_SIZE, new_head[1])
         elif new_head[0] >= SCREEN_WIDTH:
@@ -93,8 +91,6 @@ class Snake(GameObject):
             new_head = (new_head[0], SCREEN_HEIGHT - GRID_SIZE)
         elif new_head[1] >= SCREEN_HEIGHT:
             new_head = (new_head[0], 0)
-
-        # Проверка на столкновение с самой собой
         if new_head in self.positions:
             self.reset()
             return
@@ -144,7 +140,6 @@ def handle_keys(game_object):
 
 
 def main():
-    # Инициализация PyGame:
     pygame.init()
     snake = Snake()
     apple = Apple()
