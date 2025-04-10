@@ -1,0 +1,3 @@
+/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork1/cmake-build-debug/CMakeFiles/labwork1.dir
+/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
