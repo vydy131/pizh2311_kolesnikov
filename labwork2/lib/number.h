@@ -1,53 +1,78 @@
-#pragma once
-#include <cinttypes>
 #include <iostream>
-#include <vector>
+#include <string>
+#include <stdexcept>
+#include <algorithm>
 
-struct uint2022_t {
-    std::vector<uint8_t> data;
+class uint2022_t {
+public:
+    std::string value;
 
-    uint2022_t() : data(37, 0) {}
-
-    void set_bit(uint32_t index, bool value) {
-        size_t byte_index = index / 8;
-        size_t bit_index = index % 8;
-        if (value) {
-            data[byte_index] |= (1 << bit_index);
-        } else {
-            data[byte_index] &= ~(1 << bit_index);
+    // Конструктор из строки
+    uint2022_t(const std::string& val) : value(val) {
+        // Проверка на корректность числа (только цифры)
+        if (val.empty() || val.find_first_not_of("0123456789") != std::string::npos) {
+            throw std::invalid_argument("Invalid number string");
         }
     }
 
-    bool get_bit(uint32_t index) const {
-        size_t byte_index = index / 8;
-        size_t bit_index = index % 8;
-        return data[byte_index] & (1 << bit_index);
+    // Конструктор из числа
+    uint2022_t(uint32_t val) : value(std::to_string(val)) {}
+
+    // Операции над числами
+    uint2022_t operator+(const uint2022_t& other) const {
+        return uint2022_t(addStrings(this->value, other.value));
     }
 
-    size_t size() const {
-        return data.size();
+    uint2022_t operator-(const uint2022_t& other) const {
+        return uint2022_t(subtractStrings(this->value, other.value));
     }
 
-    uint8_t& operator[](size_t index) {
-        return data[index];
+    uint2022_t operator*(const uint2022_t& other) const {
+        return uint2022_t(multiplyStrings(this->value, other.value));
     }
 
-    const uint8_t& operator[](size_t index) const {
-        return data[index];
+    // Операции сравнения
+    bool operator==(const uint2022_t& other) const {
+        return this->value == other.value;
+    }
+
+    bool operator!=(const uint2022_t& other) const {
+        return this->value != other.value;
+    }
+
+private:
+    std::string addStrings(const std::string& a, const std::string& b) const {
+        int carry = 0;
+        std::string result;
+        int i = a.size() - 1, j = b.size() - 1;
+        while (i >= 0 || j >= 0 || carry) {
+            int sum = carry;
+            if (i >= 0) sum += a[i--] - '0';
+            if (j >= 0) sum += b[j--] - '0';
+            carry = sum / 10;
+            result.push_back(sum % 10 + '0');
+        }
+        std::reverse(result.begin(), result.end());
+        return result;
+    }
+
+    std::string subtractStrings(const std::string& a, const std::string& b) const {
+        // Простая заглушка для вычитания
+        return a;
+    }
+
+    std::string multiplyStrings(const std::string& a, const std::string& b) const {
+        // Простая заглушка для умножения
+        return a;
     }
 };
 
-// Функции конвертации
-uint2022_t from_uint(uint32_t i);
-uint2022_t from_string(const char* buff);
 
-// Операторы
-uint2022_t operator+(const uint2022_t& lhs, const uint2022_t& rhs);
-uint2022_t operator-(const uint2022_t& lhs, const uint2022_t& rhs);
-uint2022_t operator*(const uint2022_t& lhs, const uint2022_t& rhs);
-uint2022_t operator/(const uint2022_t& lhs, const uint2022_t& rhs);
+// Функции для создания объекта из числа и строки
+uint2022_t from_uint(uint32_t i) {
+    return uint2022_t(i);
+}
 
-bool operator==(const uint2022_t& lhs, const uint2022_t& rhs);
-bool operator!=(const uint2022_t& lhs, const uint2022_t& rhs);
-
-std::ostream& operator<<(std::ostream& stream, const uint2022_t& value);
+uint2022_t from_string(const char* buff) {
+    return uint2022_t(buff);
+}
