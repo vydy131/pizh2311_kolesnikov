@@ -1,5 +1,27 @@
 # Лабораторная работа 2
 
+## API
+```cpp
+struct uint2022_t {
+    static const int CAPACITY = 70;
+    uint32_t data[CAPACITY] = {0};
+};
+
+uint2022_t from_uint( uint32_t );
+uint2022_t from_string( char* );
+
+uint2022_t operator + ( uint2022_t, uint2022_t);
+uint2022_t operator - ( uint2022_t, uint2022_t);
+uint2022_t operator * ( uint2022_t, uint2022_t);
+uint2022_t operator / ( uint2022_t, uint2022_t);
+uint2022_t operator % ( uint2022_t, uint2022_t);
+
+bool operator == ( uint2022_t, uint2022_t);
+bool operator != ( uint2022_t, uint2022_t);
+
+std::ostream& operator << ( std::ostream&, uint2022_t );
+```
+
 ## Задача
 
   Реализовать пользовательский тип для целого беззнакового числа
