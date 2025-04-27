@@ -1,5 +1,9 @@
-Hello world!
-Привет, мир.
-This is a test file.
+uint2022_t from_uint(uint32_t i) {
+    uint2022_t result;
+    for (int bit = 0; bit < 32; ++bit) {
+        result.set_bit(bit, (i >> bit) & 1);
+    }
 
-Here is a new line.
+
+    return result;
+}

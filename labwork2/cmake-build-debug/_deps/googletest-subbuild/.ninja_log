@@ -1,0 +1,21 @@
+# ninja log v6
+0	5	1745701374728108789	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	b8670b327d6d615f
+0	5	1745701374728108789	/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork2/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	b8670b327d6d615f
+5	11654	1745701386375396743	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	2e66ba7424ca9fd9
+5	11654	1745701386375396743	/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork2/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	2e66ba7424ca9fd9
+11654	11661	1745701386376396768	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	8b32b4997b42f4a9
+11654	11661	1745701386376396768	/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork2/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	8b32b4997b42f4a9
+11661	11664	1745701386386397015	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	9cff5da213cf87aa
+11661	11664	1745701386386397015	/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork2/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	9cff5da213cf87aa
+11664	11667	1745701386389397089	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	e63ba5ede8f6f0ef
+11664	11667	1745701386389397089	/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork2/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	e63ba5ede8f6f0ef
+11667	11670	1745701386392397163	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	92dbf334803f2b2
+11667	11670	1745701386392397163	/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork2/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	92dbf334803f2b2
+11670	11673	1745701386394397213	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	2a5504b18249f26a
+11670	11673	1745701386394397213	/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork2/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	2a5504b18249f26a
+11673	11675	1745701386397397287	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	942b05c509415f47
+11673	11675	1745701386397397287	/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork2/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	942b05c509415f47
+11675	11679	1745701386401397386	CMakeFiles/googletest-populate-complete	475f33fb3c596dda
+11675	11679	1745701386401397386	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	475f33fb3c596dda
+11675	11679	1745701386401397386	/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork2/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	475f33fb3c596dda
+11675	11679	1745701386401397386	/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork2/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	475f33fb3c596dda

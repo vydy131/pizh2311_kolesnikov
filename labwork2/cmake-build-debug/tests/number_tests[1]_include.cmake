@@ -1,0 +1,5 @@
+if(EXISTS "/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork2/cmake-build-debug/tests/number_tests[1]_tests.cmake")
+  include("/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork2/cmake-build-debug/tests/number_tests[1]_tests.cmake")
+else()
+  add_test(number_tests_NOT_BUILT number_tests_NOT_BUILT)
+endif()
