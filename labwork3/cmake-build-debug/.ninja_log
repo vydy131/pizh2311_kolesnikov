@@ -1,0 +1,26 @@
+# ninja log v6
+1	256	1745706899256166866	lib/CMakeFiles/sandpile_lib.dir/BmpWriter.cpp.o	bb79ad89e5a04c24
+256	272	1745706899511172750	lib/libsandpile_lib.a	5bca641f2dffdafe
+2	148	1745706218596246779	tests/sandpile_tests	c4d5a3610238605d
+3588	3653	1745705377616390335	lib/libgtest.a	8b2d170007a92bb4
+1	432	1745706409502789685	bin/CMakeFiles/sandpile_app.dir/main.cpp.o	44cfaeaebef9ad94
+2	690	1745706166461006148	lib/CMakeFiles/sandpile_lib.dir/Sandpile.cpp.o	8e476b331ff6ef4b
+210	263	1745705250754500385	labwork3	1a63861bb6527c09
+1	3588	1745705374030308644	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	4975b131d366f967
+2	148	1745706218596246779	tests/sandpile_tests[1]_tests.cmake	c4d5a3610238605d
+1	1128	1745705374030308644	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	43b24b6ba423cd02
+1	215	1745709023349211881	build.ninja	4156433a84232989
+2	910	1745705524970747109	tests/CMakeFiles/sandpile_tests.dir/tests.cpp.o	a7f01c37ba7658d8
+3653	3658	1745705377681391816	lib/libgtest_main.a	17b66c3e4eb43dc2
+2	148	1745706218596246779	/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork3/cmake-build-debug/tests/sandpile_tests[1]_tests.cmake	c4d5a3610238605d
+1	209	1745705250545495623	CMakeFiles/labwork3.dir/main.cpp.o	da69530fb3ea0bb3
+272	326	1745706899527173120	bin/sandpile_app	2b6d13a4e6117fd6
+2	212	1745709023349211881	build.ninja	4156433a84232989
+1	457	1745709023361212156	bin/CMakeFiles/sandpile_app.dir/main.cpp.o	44cfaeaebef9ad94
+1	571	1745709023361212156	lib/CMakeFiles/sandpile_lib.dir/Sandpile.cpp.o	8e476b331ff6ef4b
+571	581	1745709023931225214	lib/libsandpile_lib.a	5bca641f2dffdafe
+581	638	1745709023941225443	bin/sandpile_app	2b6d13a4e6117fd6
+3	1062	1745709029847360745	tests/CMakeFiles/sandpile_tests.dir/tests.cpp.o	a7f01c37ba7658d8
+1062	1194	1745709031038388030	tests/sandpile_tests	c4d5a3610238605d
+1062	1194	1745709031038388030	tests/sandpile_tests[1]_tests.cmake	c4d5a3610238605d
+1062	1194	1745709031038388030	/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork3/cmake-build-debug/tests/sandpile_tests[1]_tests.cmake	c4d5a3610238605d

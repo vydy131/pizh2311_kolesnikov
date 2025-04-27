@@ -1,0 +1,5 @@
+if(EXISTS "/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork3/cmake-build-debug/tests/sandpile_tests[1]_tests.cmake")
+  include("/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork3/cmake-build-debug/tests/sandpile_tests[1]_tests.cmake")
+else()
+  add_test(sandpile_tests_NOT_BUILT sandpile_tests_NOT_BUILT)
+endif()

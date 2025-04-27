@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork5/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork5/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule
+/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork5/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule
+/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork5/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule
+/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork5/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule
+/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork5/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule
+/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork5/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule
+/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork5/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule
+/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork5/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule
+/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork5/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule
+/home/vydy131/CLionProjects/pizh2311_kolesnikov/labwork5/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule
